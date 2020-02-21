@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/anonymous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/anonymous" />
+
+            <Button
+                android:id="@+id/hwid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hwid" />
+
+            <Button
+                android:id="@+id/hwgame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hwgame" />
+
+            <Button
+                android:id="@+id/weibo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/weibo" />
+
+            <Button
+                android:id="@+id/weixin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/weixin" />
+
+            <Button
+                android:id="@+id/qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qq" />
+
+            <Button
+                android:id="@+id/selfbuild"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selfbuild" />
+
+            <Button
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email" />
+
+            <Button
+                android:id="@+id/facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook" />
+
+            <Button
+                android:id="@+id/twitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/twitter" />
+
+            <Button
+                android:id="@+id/google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/google" />
+
+            <Button
+                android:id="@+id/play_game"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/play_game" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/delete_user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

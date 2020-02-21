@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Auth</string>
+    <string name="hwid">Huawei ID</string>
+    <string name="hwgame">Huawei Game ID</string>
+    <string name="weixin">WeChat</string>
+    <string name="qq">QQ</string>
+    <string name="weibo">Weibo</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="google">Google</string>
+    <string name="play_game">Google Play</string>
+
+    <string name="delete">Delete</string>
+    <string name="logout">Logout</string>
+    <string name="link">Link</string>
+    <string name="selfbuild">Self Build</string>
+    <string name="login">Login</string>
+    <string name="unlink">Unlink</string>
+    <string name="nouser">No User</string>
+    <string name="delete_user">Delete User</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="create_email">Create Email</string>
+    <string name="password_login">Password Login</string>
+    <string name="verify_code_login">Verify Code Login</string>
+    <string name="get_user">Get User</string>
+    <string name="update_email">Update Email</string>
+    <string name="update_password">Update Password</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="email">Email</string>
+    <string name="userExtra">User Extra</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/verifyCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verifyCode"
+        android:text="@string/verify_code" />
+
+    <Button
+        android:id="@+id/createEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createEmail"
+        android:text="@string/create_email" />
+
+    <Button
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="passwordLogin"
+        android:text="@string/password_login" />
+
+    <Button
+        android:id="@+id/verifyCodeLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verifyCodeLogin"
+        android:text="@string/verify_code_login" />
+
+    <Button
+        android:id="@+id/updateEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="updateEmail"
+        android:text="@string/update_email" />
+
+    <Button
+        android:id="@+id/updatePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="updatePassword"
+        android:text="@string/update_password" />
+
+</LinearLayout>
